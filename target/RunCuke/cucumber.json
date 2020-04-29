@@ -1,0 +1,294 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11989543900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user should navigate to Contact Us page successfully",
+        "description": "",
+        "id": "contact-us-and-find-a-branch-page-navigate-functionality;verify-user-should-navigate-to-contact-us-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 715313900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 189143500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Home Page",
+            "match": {
+              "location": "LoginAndRegisterSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1680110900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Contact Us Button",
+            "match": {
+              "location": "ContactBranchSteps.iClickOnContactUsButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89129100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be in Contact us page successfully",
+            "match": {
+              "location": "ContactBranchSteps.iShouldBeInContactUsPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10889060100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify user should navigate to Find a Branch page successfully",
+        "description": "",
+        "id": "contact-us-and-find-a-branch-page-navigate-functionality;verify-user-should-navigate-to-find-a-branch-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 816705900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on Home Page",
+            "match": {
+              "location": "LoginAndRegisterSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1154480400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Find a Branch button",
+            "match": {
+              "location": "ContactBranchSteps.iClickOnFindABranchButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 366949400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be in Find a Branch page successfully",
+            "match": {
+              "location": "ContactBranchSteps.iShouldBeInFindABranchPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Contact Us and Find a Branch Page navigate functionality",
+    "description": "As a\r\nUser I want to visit barclays bank website",
+    "id": "contact-us-and-find-a-branch-page-navigate-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/uk/co/barclays/resources/featurefile/contactbranch.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10837104500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user should navigate to login page",
+        "description": "",
+        "id": "login-and-register-page-navigate-functionality;verify-user-should-navigate-to-login-page",
+        "after": [
+          {
+            "result": {
+              "duration": 643630500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Home Page",
+            "match": {
+              "location": "LoginAndRegisterSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1280205000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Login button",
+            "match": {
+              "location": "LoginAndRegisterSteps.iClickOnLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1509918000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be in Login page successfully",
+            "match": {
+              "location": "LoginAndRegisterSteps.iShouldBeInLoginPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11013526800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify user should navigate to Register Page",
+        "description": "",
+        "id": "login-and-register-page-navigate-functionality;verify-user-should-navigate-to-register-page",
+        "after": [
+          {
+            "result": {
+              "duration": 640268000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on Home Page",
+            "match": {
+              "location": "LoginAndRegisterSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1402612700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on Register button",
+            "match": {
+              "location": "LoginAndRegisterSteps.iClickOnRegisterButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 460649400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be in Register page successfully",
+            "match": {
+              "location": "LoginAndRegisterSteps.iShouldBeInRegisterPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login and Register page navigate functionality",
+    "description": "As a user\r\nI want to visit barclays bank website",
+    "id": "login-and-register-page-navigate-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/uk/co/barclays/resources/featurefile/loginandregister.feature"
+  }
+]
